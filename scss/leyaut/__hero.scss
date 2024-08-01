@@ -1,0 +1,206 @@
+.hero {
+  width: 100%;
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  &__title {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+    font-size: 35px;
+  }
+  &__item2 {
+    background: linear-gradient(
+      to right,
+      rgba(254, 103, 131, 1),
+      rgba(255, 191, 132, 1)
+    );
+    color: transparent;
+    background-clip: text;
+  }
+  &__desc {
+    text-align: center;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  &__action {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+  }
+  &__now {
+    width: 300px;
+    height: 40px;
+    background-color: rgba(50, 108, 249, 1);
+    border-radius: 6px;
+    color: white;
+    border: none;
+  }
+  &__demo {
+    width: 300px;
+    height: 40px;
+    background: transparent;
+    color: rgba(112, 112, 112, 1);
+    border: 1px solid rgba(112, 112, 112, 1);
+    border-radius: 6px;
+  }
+  h6 {
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+  }
+  &__span {
+    width: 10px;
+    height: 10px;
+    background-color: rgb(10, 193, 10);
+    border-radius: 50%;
+    border: 2px solid rgb(3, 92, 3);
+  }
+}
+
+@media (min-width: 200px) {
+  .hero {
+    gap: 50px;
+    &__title {
+      font-size: 20px;
+    }
+&__desc{
+    width: 90%;
+    font-size: 14px;
+}
+    &__now {
+      width: 40%;
+      height: 40px;
+      background-color: rgba(50, 108, 249, 1);
+      border-radius: 6px;
+      color: white;
+      border: none;
+      font-size: 10px;
+    }
+    &__demo {
+      width: 40%;
+      height: 40px;
+      background: transparent;
+      color: rgba(112, 112, 112, 1);
+      border: 1px solid rgba(112, 112, 112, 1);
+      border-radius: 6px;
+      font-size: 10px;
+    }
+    h6 {
+      width: 100%;
+      font-size: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 4px;
+    }
+    &__span {
+      width: 10px;
+      height: 10px;
+      background-color: rgb(10, 193, 10);
+      border-radius: 50%;
+      border: 2px solid rgb(3, 92, 3);
+    }
+  }
+}
+
+@media (min-width: 400px) {
+    .hero {
+      gap: 50px;
+      &__title {
+        font-size: 22px;
+      }
+      &__desc{
+        width: 70%;
+        font-size: 16px;
+    }
+      &__now {
+        width: 40%;
+        height: 40px;
+        background-color: rgba(50, 108, 249, 1);
+        border-radius: 6px;
+        color: white;
+        border: none;
+        font-size: 14px;
+      }
+      &__demo {
+        width: 40%;
+        height: 40px;
+        background: transparent;
+        color: rgba(112, 112, 112, 1);
+        border: 1px solid rgba(112, 112, 112, 1);
+        border-radius: 6px;
+        font-size: 14px;
+      }
+      h6 {
+        width: 100%;
+        font-size: 12px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 4px;
+      }
+      &__span {
+        width: 10px;
+        height: 10px;
+        background-color: rgb(10, 193, 10);
+        border-radius: 50%;
+        border: 2px solid rgb(3, 92, 3);
+      }
+    }
+  }
+
+  @media (min-width: 768px) {
+    .hero {
+      gap: 50px;
+      &__title {
+        font-size: 35px;
+      }
+      &__desc{
+        width: 50%;
+        font-size: 20px;
+    }
+      &__now {
+        width: 200px;
+        height: 40px;
+        background-color: rgba(50, 108, 249, 1);
+        border-radius: 6px;
+        color: white;
+        border: none;
+        font-size: 16   px;
+      }
+      &__demo {
+        width: 200px;
+        height: 40px;
+        background: transparent;
+        color: rgba(112, 112, 112, 1);
+        border: 1px solid rgba(112, 112, 112, 1);
+        border-radius: 6px;
+        font-size: 16px;
+      }
+      h6 {
+        width: 100%;
+        font-size: 14px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 4px;
+      }
+      &__span {
+        width: 10px;
+        height: 10px;
+        background-color: rgb(10, 193, 10);
+        border-radius: 50%;
+        border: 2px solid rgb(3, 92, 3);
+      }
+    }
+  }
